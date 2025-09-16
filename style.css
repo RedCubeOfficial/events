@@ -16,6 +16,15 @@ button{
 }
 
 @media (max-width: 942px) {
+    .top-overlay{
+        position: fixed;
+        background: #000000b5;
+        min-height: 10vh;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
     .menu-icon {
         display: none;
         flex-direction: column;
